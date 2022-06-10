@@ -53,7 +53,7 @@ export const Works = () => {
 										<div className={s['work-name']}>Table BS</div>
 										<a href="https://dmitrivic.github.io/Table-BS" target="_blank"><img className={s.img} src={TableBS} alt="" /></a>
 									</div>
-									<div>text</div>
+				
 								</div>
 							</div>
 							
