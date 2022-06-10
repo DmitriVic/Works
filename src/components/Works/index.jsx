@@ -9,6 +9,7 @@ import dance from "./img/Dance.png"
 import GrannyCats from "./img/Cats.png"
 import GreenCorp from "./img/GreenCorp.png"
 import ReactProject from "./img//Blog.png"
+import TableBS from "./img//TableBS.png"
 
 
 
@@ -23,19 +24,20 @@ export const Works = () => {
 							<div className={s.works}>
 								<div className={s.work}>
 									<div className={s['work-name']}>Binary</div>
-									<a href="https://dmitrivic.github.io/binary/"><img className={s.img} src={binary} alt="" /></a>
+									<a href="https://dmitrivic.github.io/binary/" target="_blank"><img className={s.img} src={binary} alt="" /></a>
 								</div>
 								<div className={s.work}>
 									<div className={s['work-name']}>Dance</div>
-									<a href="https://dmitrivic.github.io/Dance/"><img className={s.img} src={dance} alt="" /></a>
+									<a href="https://dmitrivic.github.io/Dance/" target="_blank"><img className={s.img} src={dance} alt="" /></a>
 								</div>
 								<div className={s.work}>
 									<div className={s['work-name']}>Granny-Cats</div>
-									<a href="https://dmitrivic.github.io/Granny-Cats/"><img className={s.img} src={GrannyCats} alt="" /></a>
+									<a href="https://dmitrivic.github.io/Granny-Cats/" target="_blank"><img className={s.img} src={GrannyCats} alt="" /></a>
 								</div>
 								<div className={s.work}>
 									<div className={s['work-name']}>GreenCorp</div>
-									<a href="https://dmitrivic.github.io/green-corp-landing/"><img className={s.img} src={GreenCorp} alt="" /></a>
+									<a href="https://dmitrivic.github.io/green-corp-landing/" target="_blank"><img className={s.img} src={GreenCorp} alt="" /></a>
+									
 								</div>
 							</div>
 						</div>
@@ -44,9 +46,15 @@ export const Works = () => {
 							<div className={s.works}>
 								<div className={s.work}>
 									<div className={s['work-name']}>Info-Blog</div>
-									<a href="https://dmitrivic.github.io/School-Posts-v-2.4-/"><img className={s.img} src={ReactProject} alt="" /></a>
+									<a href="https://dmitrivic.github.io/School-Posts-v-2.4-/" target="_blank"><img className={s.img} src={ReactProject} alt="" /></a>
 								</div>
-							
+								<div className={s.work}>
+									<div>
+										<div className={s['work-name']}>Table BS</div>
+										<a href="https://dmitrivic.github.io/Table-BS" target="_blank"><img className={s.img} src={TableBS} alt="" /></a>
+									</div>
+									<div>text</div>
+								</div>
 							</div>
 							
 						</div>
